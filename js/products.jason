@@ -1,0 +1,45 @@
+[
+    {
+        "id": "1",
+        "title": "Устілка бежева",
+        "image": "beige.png",
+        "description": "Ортопедичні устілки",
+        "price": 499.99
+    },
+    {
+        "id": "2",
+        "title": "Устілка голуба",
+        "image": "blue.png",
+        "description": "Ортопедичні устілки",
+        "price": 599.99
+    },
+    {
+        "id": "3",
+        "title": "Устілка зелена",
+        "image": "green.png",
+        "description": "Ортопедичні устілки",
+        "price": 649.99
+    },
+    {
+        "id": "4",
+        "title": "Устілка Гольф Про",
+        "image": "green_golf_pro.png",
+        "description": "Ортопедичні устілки",
+        "price": 429.99
+    },
+    {
+        "id": "5",
+        "title": "Устілка рожева",
+        "image": "pink.png",
+        "description": "Ортопедичні устілки",
+        "price": 729.99
+    },
+    {
+        "id": "6",
+        "title": "Устілка пісочно-чорна",
+        "image": "sandy_black.png",
+        "description": "Ортопедичні устілки",
+        "price": 529.99
+    }
+   
+]

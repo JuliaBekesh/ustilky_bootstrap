@@ -1,55 +1,61 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 :root {
-    font-family: 'Quicksand', sans-serif;
-    scroll-behavior: smooth;
+  font-family: 'Quicksand', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-    max-width: 900px;
-    margin: auto;
+  max-width: 900px;
+  margin: auto;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
-  .map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
 
-.thumb img  {
-    padding: 15px; 
-    margin-right: 10px; 
-    margin-bottom: 10px; 
-    width: 120px;
-    height: 120px;
-    display: block;
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.thumb img {
+  padding: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 120px;
+  display: block;
   margin: 0 auto;
+}
+
+
+
+.search input {
+  position: relative;
+  left: 650px;
+  top: 50px;
+  bottom: 0px;
+}
+
+    form.login-form {
+      top: 50px;
+       bottom: 100px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
     }
     
-      .logo img {
-       position: relative;
-left:250px;
-top:70px;
-bottom:0px;
-    height:180%;
-    width:40%;
-    display:block;
-      }
-.search input {
-   position: relative;
-left:650px;
-top:50px;
-bottom:0px;
-    }
+ 
