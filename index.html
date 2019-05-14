@@ -9,10 +9,11 @@
   <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
 </head>
-<div class="container">
+
   <body>
+    <div class="container">
      <form class="login-form">
-        <form>
+  
   <div class="row">
     <div class="col">
       <input type="text" class="form-control" placeholder="Логін">
@@ -22,7 +23,7 @@
     </div>
      <p><input type="submit"></p>
             <div class="server-response"></div>
-        </form>
+
   </div>
 </form>
         <nav>
@@ -38,25 +39,23 @@
     </form>
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Про нас</a>
+        <a class="nav-link active" href="#about-us">Про нас</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Різновиди устілок</a>
+        <a class="nav-link" href="#kind-of">Різновиди устілок</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Методи корекції</a>
+        <a class="nav-link" href="#main-stages">Методи корекції</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Зв’яжіться з нами</a>
+        <a class="nav-link" href="#connections">Зв’яжіться з нами</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Контакти</a>
+        <a class="nav-link" href="#all-contacts">Контакти</a>
       </li>
     </ul>
 </div>
-</nav>
-</div>
-</nav>
+
 <div id="carouselProducts" class="carousel slide carousel-fade" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselProducts" data-slide-to="0" class="active"></li>
@@ -81,15 +80,18 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-</div>
+               </div>
 <main>
+  <section id="about-us">
   <div class="jumbotron">
     <h2 class="display-4">Ортопедична система "Формтотікс"</h2>
-    <p class="lead"><b>Formthotics</b> - індивідуальні ортези для стопи з Нової Зеландії</p>
+    <p class="lead"><b>Formthotics</b> - індивідуальні ортези для стопи з Нової Зеландії.</p>
     <hr class="my-4">
-    <p><b>Наша місія:</b> пропаганда нової філософії корекції стопи і тіла, а також впровадження унікальної методики оцінки опорно-рухового апарату і відновлення його функцій за допомогою індивідуальних ортезів ФормТотікс</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Дізнатися бідьше</a>
+    <p><b>Наша місія:</b> пропаганда нової філософії корекції стопи і тіла, а також впровадження унікальної методики оцінки опорно-рухового апарату і відновлення його функцій за допомогою індивідуальних ортезів ФормТотікс.</p>
+    <a class="btn btn-primary btn-lg" href="https://www.formthotics.com/" role="button">Дізнатися більше</a>
   </div>
+  </section>
+  <section id="kind-of">
   <h2>Різновиди устілок</h2>
   <div class="row">
     <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
@@ -97,7 +99,7 @@
       <div class="card-body">
         <h5 class="card-title">Устілка беж</h5>
         <p class="card-text">Ортопедичні устілки</p>
-        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modal-product-info">Info</a>
+        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#beige">Info</a>
         <a href="#" class="btn btn-primary">Buy</a>
       </div>
     </article>
@@ -106,7 +108,7 @@
       <div class="card-body">
         <h5 class="card-title">Устілка голуба</h5>
         <p class="card-text">Ортопедичні устілки</p>
-        <a href="#" class="btn btn-info">Info</a>
+        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#blue">Info</a>
         <a href="#" class="btn btn-primary">Buy</a>
       </div>
     </article>
@@ -115,7 +117,7 @@
       <div class="card-body">
         <h5 class="card-title">Устілка зелена</h5>
         <p class="card-text">Ортопедичні устілки</p>
-        <a href="#" class="btn btn-info">Info</a>
+        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#green">Info</a>
         <a href="#" class="btn btn-primary">Buy</a>
       </div>
     </article>
@@ -124,7 +126,7 @@
       <div class="card-body">
         <h5 class="card-title">Устілка Гольф Про</h5>
         <p class="card-text">Ортопедичні устілки</p>
-        <a href="#" class="btn btn-info">Info</a>
+        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#green_golf_pro">Info</a>
         <a href="#" class="btn btn-primary">Buy</a>
       </div>
     </article>
@@ -133,7 +135,7 @@
       <div class="card-body">
         <h5 class="card-title">Устілка рожева</h5>
         <p class="card-text">Ортопедичні устілки</p>
-        <a href="#" class="btn btn-info">Info</a>
+        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#pink">Info</a>
         <a href="#" class="btn btn-primary">Buy</a>
       </div>
     </article>
@@ -142,19 +144,19 @@
       <div class="card-body">
         <h5 class="card-title">Устілка пісочно-чорна</h5>
         <p class="card-text">Ортопедичні устілки</p>
-        <a href="#" class="btn btn-info">Info</a>
+        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#sandy_black">Info</a>
         <a href="#" class="btn btn-primary">Buy</a>
       </div>
-  </div>
-  </div>
+      </article>
+      </div>
+      </section>
 </main>
-</div>
  <!-- Modal Product Info -->
-    <div class="modal fade" id="modal-product-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="beige" tabindex="-1" role="dialog" aria-labelledby="ModalLongTitle1" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle">Опис</h5>
+            <h5 class="modal-title" id="ModalLongTitle1">Опис</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -174,11 +176,11 @@
       </div>
     </div>
     <!-- Modal Product Info -->
-    <div class="modal fade" id="modal-product-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="blue" tabindex="-1" role="dialog" aria-labelledby="ModalLongTitle2" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle">Опис</h5>
+            <h5 class="modal-title" id="ModalLongTitle2">Опис</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -198,11 +200,11 @@
       </div>
     </div>
     <!-- Modal Product Info -->
-    <div class="modal fade" id="modal-product-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="green" tabindex="-1" role="dialog" aria-labelledby="ModalLongTitle3" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle">Опис</h5>
+            <h5 class="modal-title" id="ModalLongTitle3">Опис</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -222,11 +224,11 @@
       </div>
     </div>
     <!-- Modal Product Info -->
-    <div class="modal fade" id="modal-product-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="green_golf_pro" tabindex="-1" role="dialog" aria-labelledby="ModalLongTitle4" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle">Опис</h5>
+            <h5 class="modal-title" id="ModalLongTitle4">Опис</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -246,11 +248,11 @@
       </div>
     </div>
     <!-- Modal Product Info -->
-    <div class="modal fade" id="modal-product-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="pink" tabindex="-1" role="dialog" aria-labelledby="ModalLongTitle5" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle">Опис</h5>
+            <h5 class="modal-title" id="ModalLongTitle5">Опис</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -270,11 +272,11 @@
       </div>
     </div>
     <!-- Modal Product Info -->
-    <div class="modal fade" id="modal-product-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="sandy_black" tabindex="-1" role="dialog" aria-labelledby="ModalLongTitle6" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle">Опис</h5>
+            <h5 class="modal-title" id="ModalLongTitle6">Опис</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -293,11 +295,10 @@
         </div>
       </div>
     </div>
-        </main>
             <br>
-    <section>
+    <section id="main-stages">
   <h2>Основні етапи методу корекції по системі ФормТотікс</h2>
-  <p><b>Крок 1. Діагностика.</b>Лікар спочатку проводить діагностику постави і стопи. 6 функціональних тестів дозволять зробити висновок про стан всього опорно-рухово��о апарату. Оцінюється стан всього опорно-рухового апарату.</p>
+  <p><b>Крок 1. Діагностика.</b>Лікар спочатку проводить діагностику постави і стопи. 6 функціональних тестів дозволять зробити висновок про стан всього опорно-рухового апарату. Оцінюється стан всього опорно-рухового апарату.</p>
   <p><b>Крок 2. Вибір заготівок.</b> Модель підбирається під особливості стопи, враховуються:</p>
   <ul>
     <li>ступінь деформації стопи;</li>
@@ -311,32 +312,34 @@
   <p><b>Крок 4. Корекція.</b>При повторному візиті оцінюється хода, постава і деформація устілок. При необхідності проводиться корекція функціональними клинами, подушечками, підп'яточниками</p>
 </section>
 <br>
-<br>
+<section id="connections">
 <h2>Зв'яжіться з нами</h2>
 <form>
   <div class="form-group">
     <label for="exampleFormControlInput1">Ім'я</label>
-    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Введіть ім'я">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
   </div>
   <div class="form-group">
-    <label for="exampleFormControlInput1">Прізвище</label>
-    <input type="surname" class="form-control" id="exampleFormControlInput1" placeholder="Введіть прізвище">
+    <label for="exampleFormControlInput2">Прізвище</label>
+    <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Password">
   </div>
   <div class="form-group">
-    <label for="exampleFormControlInput1">Електронна пошта</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Введіть електронну пошту">
+    <label for="exampleFormControlInput3">Електронна пошта</label>
+    <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="email">
   </div>
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Коментар</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <label for="exampleFormControlTextarea4">Коментар</label>
+    <textarea class="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
   </div>
 </form>
+</section>
+<section id="all-contacts">
 <div>
   <footer>
     <h2 id="contacts">Контакти</h2>
     <div class="map-responsive">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.3429043132364!2d24.05746671486326!3d49.836014139328114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add48f4fd95df%3A0x76c571b879f82a64!2sKompaniya+%22Maksymus+Hrup%22!5e0!3m2!1sen!2sua!4v1555781935105!5m2!1sen!2sua">
-                   </iframe>
+      </iframe>
     </div>
     <br>
     <p><b>Maximus Group</b></p>
@@ -345,22 +348,20 @@
     <p>e-mail: info@maximusgroup.com.ua</p>
     <p>Адреса: м. Львів</p>
     <p>Веб-сайт: <a href="http://maximusgroup.com.ua/">www.maximusgroup.com.ua</a></p>
-    </br>
-</div>
+    <br>
 <h2>Ми у соцмережах</h2>
         <div id="networks">
-            <p class="thumb">
+          <div class="thumb">
             <a href="https://www.facebook.com/Formthotics.Ukraine/"><img src="images/facebookicon.png" alt="facebook"></a>
             <a href="https://instagram.com/maximus.rehabilitation.lviv?utm_source=ig_profile_share&igshid=iqs6om64e1eq/"><img src="images/instagramicon.png" alt="instagram"></a>
-        </p>
         </div>
-
+        </div>
         </footer>
         </div>
+        </section>
 <script src="js/index.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
 </body>
 </html>

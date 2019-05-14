@@ -32,7 +32,7 @@ class ProductList {
                       <button class="btn btn-primary buy" data-id="${
                         product.id
                       }">
-                        $${product} - Buy
+                        $${product.price} - Buy
                       </button>
                     </div>
                   </div>
